@@ -1,0 +1,39 @@
+EXAMPLE KNOWLEDGE BASE
+======================
+Copy this file to data/chatbot-knowledge.txt and replace everything below with
+your dealership's real information. The AI reads the file as-is on every
+message (plain text, any format), and admins can edit it live from
+Admin > Chat Leads > Chatbot Knowledge.
+
+--- OPENING HOURS ---
+Monday to Saturday: 10:00 AM - 8:00 PM
+Sunday: Closed
+
+--- BANK FINANCE (indicative - final terms always come from the bank) ---
+- Down payment: typically 20% of the car price.
+- Tenure: up to 48 months.
+- Requirements (salaried): passport/ID, driving licence, 3 months bank
+  statements, salary certificate.
+- Requirements (self-employed): trade licence, 6 months company bank
+  statements.
+- The sales team prepares the quotation the bank needs.
+
+--- CURRENCY CONVERSION ---
+- Exchange rate to USD: 3.65 (local currency per USD).
+- If a customer asks for a price in USD, calculate and give ONLY the final
+  USD figure.
+- For any currency other than the local currency or USD, say the sales team
+  can help with that.
+
+--- WARRANTY & SERVICE ---
+- Describe your warranty coverage here (duration, what it covers, who backs
+  it, any brand-specific programs).
+
+--- DELIVERY & EXPORT ---
+- Nationwide delivery: yes/no, cost, timeline.
+- Export assistance: paperwork the showroom handles.
+
+--- POLICIES ---
+- We only sell our own stock; we do not buy cars from the public and do not
+  take trade-ins.
+- Reservations and discounts are confirmed by the sales team only.

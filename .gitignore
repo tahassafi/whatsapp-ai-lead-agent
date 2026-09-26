@@ -1,0 +1,24 @@
+# secrets & local config
+.env
+config.php
+
+# dependencies
+vendor/*
+!vendor/
+assets/vendor/ffmpeg/*
+!assets/vendor/ffmpeg/README.md
+node_modules/
+
+# runtime data & caches
+assets/cache/
+includes/.sessions/
+data/chatbot-knowledge.txt
+*.log
+logs/
+
+# uploads
+uploads/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
